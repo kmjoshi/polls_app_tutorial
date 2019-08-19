@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn voting_app.wsgi --log-file
